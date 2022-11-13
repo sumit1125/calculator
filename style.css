@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: rgb(32, 168, 168);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    min-width: 300px;
+    background-color: rgb(206, 121, 11);
+    height: 350px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.screen{
+    width: 100%;
+    min-height: 70px;
+    font-size: x-large;
+    text-align: right;
+    padding: 20px;
+}
+
+
+.Allbuttons{
+    color: black;
+    display: grid;
+    grid-template:repeat(4, 1fr)/ repeat(4,1fr);
+    padding: 5px;
+    gap: 10px;
+    font-size: xx-large;
+}
+
+.Allbuttons .btn {
+    height: 30px;
+}
+
+button:hover{
+    background-color: rgb(232, 240, 240);
+    cursor: none;
+}
+
